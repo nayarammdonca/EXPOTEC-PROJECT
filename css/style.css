@@ -125,5 +125,48 @@
     height: 450px;
     padding: 40px;
     border-radius: 10px;
-    
+  }
+
+  form h1{
+    text-align: center;
+    font-size: 30px;
+    color:#ffffff;
+  }
+
+  form p {
+    text-align: justify;
+    margin: 20px 0px;
+  }
+
+  .row{
+    padding: 0 20px;
+    display: table;
+  }
+
+  section{
+    float: left;
+    width: 75%;
+  }
+
+  aside{
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    background-color: grey;
+    max-width: 500px;
+    height: 450px;
+    padding: 40px;
+    border-radius: 10px;
+  }
+
+  aside h2{
+    text-align: left;
+    font-size: 20px;
+    color:#ffffff;
+  }
+
+  aside p {
+    text-align: justify;
+    margin: 20px 0px;
+    font-size: 14px;
   }
