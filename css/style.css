@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-boxu;
   }
   
   a {
@@ -60,6 +61,11 @@
   @media (max-width: 999px) {
     body {
       overflow-x: hidden;
+      width: 100%;
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
     .nav-list {
       position: absolute;
