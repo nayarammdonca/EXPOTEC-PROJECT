@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +18,7 @@
   
   .logo {
     font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
     color: #ffffff;
   }
   
@@ -26,8 +27,8 @@
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #23232e;
-    height: 8vh;
+    background: #3f3f3e;
+    height: 12vh;
   }
   
   
@@ -129,12 +130,14 @@
   }
 
   form h1{
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 30px;
     color:#000000;
   }
 
   form p {
+    font-family: 'Montserrat', sans-serif;
     text-align: justify;
     margin: 20px 0px;
   }
@@ -161,17 +164,24 @@
   }
 
   aside h2{
+    font-family: 'Poppins', sans-serif;
     text-align: left;
     font-size: 20px;
     color:#000000;
   }
 
   aside p {
+    font-family: 'Montserrat', sans-serif;
     text-align: justify;
     margin: 20px 0px;
     font-size: 14px;
   }
 
   .item{
-    color: #ffffff;
+    color:#ffffff;
+  }
+
+  #logo{
+    width: 80px;
+    height: 80px;;
   }
