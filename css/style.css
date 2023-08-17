@@ -185,3 +185,21 @@
     width: 80px;
     height: 80px;;
   }
+
+nav.menu-lateral{
+  width: 300px;
+  height: 100%;
+  background-color:#3f3f3e;
+  padding: 40px 0px 40px 1%;
+}
+
+.btn-expandir{
+  width: 100%;
+  padding-left: 10px;
+}
+
+.btn-expandir > i{
+  color:#fff;
+  font-size: 24px;
+  cursor: pointer;
+}
