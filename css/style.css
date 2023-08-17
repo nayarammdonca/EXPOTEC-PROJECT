@@ -195,9 +195,13 @@ nav.menu-lateral{
   position: fixed;
   top: 0;
   left: 0;
+  overflow: hidden;
+  transition: .2s;
 }
 
-nav.menu-lateral
+nav.menu-lateral:hover{
+  width: 300px;
+}
 
 .btn-expandir{
   width: 100%;
