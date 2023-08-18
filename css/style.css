@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-boxu;
+    box-sizing: border-box;
   }
   
   a {
@@ -200,6 +200,7 @@ nav.menu-lateral{
 }
 
 nav.menu-lateral:hover{
+  z-index: 1;
   width: 300px;
 }
 
@@ -224,14 +225,14 @@ ul li.item-menu{
 }
 
 ul li.item-menu:hover{
-  background-color: blue;
+  background-color: rgb(182, 182, 182);
 }
 
 ul li.item-menu a{
   color: #fff;
   text-decoration: none;
   font-size: 20px;
-  padding: 20pc 4%;
+  padding: 20px 4%;
   bottom: 10px;
   line-height: 40px;
 }
