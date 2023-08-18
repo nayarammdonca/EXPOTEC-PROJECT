@@ -20,6 +20,8 @@
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
+    margin-right: 40%;
+    margin-bottom: 10px;
   }
   
   nav {
@@ -40,6 +42,7 @@
   .nav-list li {
     letter-spacing: 3px;
     margin-left: 32px;
+    margin-top: 25px;
   }
   
   .mobile-menu {
@@ -182,8 +185,8 @@
   }
 
   #logo{
-    width: 80px;
-    height: 80px;;
+    width: 70px;
+    height: 70px;;
   }
 
 nav.menu-lateral{
