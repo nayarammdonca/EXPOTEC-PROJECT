@@ -42,3 +42,26 @@ class MobileNavbar {
     ".nav-list li",
   );
   mobileNavbar.init();
+
+  
+//   var menuItem = document.querySelectorAll('.item-menu')
+
+// function selectLink(){
+//   menuItem.forEach((item)=>
+//   item.classList.remove('ativado')
+//   )
+//   this.classList.add('ativado')
+// }
+
+// menuItem.forEach((item)=>
+// item.addEventListener('click', selectLink)
+// )
+
+//expansão do menu
+
+var btnExp= document.querySelector('#btn_exp')
+var menuSide= document.querySelector('.menu-lateral')
+
+btnExp.addEventListener('click', function(){
+  menuSide.classList.toggle('expandir')
+})

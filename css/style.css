@@ -202,7 +202,7 @@ nav.menu-lateral{
   transition: .2s;
 }
 
-nav.menu-lateral:hover{
+nav.menu-lateral.expandir{
   z-index: 1;
   width: 300px;
 }
@@ -226,6 +226,11 @@ ul{
 ul li.item-menu{
   transition: .2s;
 }
+
+/* ul li.ativado{
+  background-color: rgb(182, 182, 182);
+  ;
+} */
 
 ul li.item-menu:hover{
   background-color: rgb(182, 182, 182);
