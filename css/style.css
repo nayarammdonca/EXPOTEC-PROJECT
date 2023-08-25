@@ -199,7 +199,8 @@ nav.menu-lateral{
   top: 0;
   left: 0;
   overflow: hidden;
-  transition: .2s;
+  transition: .7s;
+  z-index: 1;
 }
 
 nav.menu-lateral.expandir{
@@ -246,7 +247,14 @@ ul li.item-menu a{
 }
 
 ul li.item-menu a .txt-link{
-  margin-left: 60px;
+  margin-left: 70px;
+  transition: 1s;
+  opacity: 0;
+}
+
+nav.menu-lateral.expandir .txt-link{
+  margin-bottom: 60px;
+  opacity: 1;
 }
 
 ul li.item-menu a .icone > i{
@@ -284,3 +292,6 @@ transform: scaleX(1);}
   color: lightslategray;
 }
 
+.mat{
+  margin-top: 20px;
+}

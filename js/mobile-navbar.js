@@ -43,19 +43,19 @@ class MobileNavbar {
   );
   mobileNavbar.init();
 
-  
-//   var menuItem = document.querySelectorAll('.item-menu')
 
-// function selectLink(){
-//   menuItem.forEach((item)=>
-//   item.classList.remove('ativado')
-//   )
-//   this.classList.add('ativado')
-// }
+  var menuItem = document.querySelectorAll('.item-menu')
 
-// menuItem.forEach((item)=>
-// item.addEventListener('click', selectLink)
-// )
+function selectLink(){
+  menuItem.forEach((item)=>
+  item.classList.remove('ativado')
+  )
+  this.classList.add('ativado')
+}
+
+menuItem.forEach((item)=>
+item.addEventListener('click', selectLink)
+)
 
 //expansão do menu
 
