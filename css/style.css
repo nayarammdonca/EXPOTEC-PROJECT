@@ -352,6 +352,27 @@ transform: scaleX(1);}
 ::-webkit-scrollbar-thumb{
 background-color: #23232e;
 }
+#quimcor{
+  background-color: mediumorchid;
+}
+#navquim{
+  background-color: lightblue;
+
+}
+#itemqui{
+  text-decoration: none;
+  color: lightcoral;
+}
+#itemgeo{
+  text-decoration: none;
+  color: #F59A7A;
+}
+#menugeo{
+  background-color:#F59A7A ;
+}
+#navgeo{
+  background-color: #FFE094;
+}
 
 /* #portform{
   background-color: rgb(212, 212, 212);
