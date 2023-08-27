@@ -247,7 +247,6 @@ nav.menu-lateral{
   height: 100%;
   background-color:#3f3f3e;
   padding: 40px 0px 40px 1%;
-  box-shadow: 3px 0 0 #000000;
   position: fixed;
   top: 0;
   left: 0;
@@ -352,26 +351,41 @@ transform: scaleX(1);}
 ::-webkit-scrollbar-thumb{
 background-color: #23232e;
 }
+/*modificação das cores de química*/
 #quimcor{
-  background-color: mediumorchid;
+  background-color: #336699;
 }
 #navquim{
-  background-color: lightblue;
+  background-color: #4980D1;
 
 }
 #itemqui{
   text-decoration: none;
-  color: lightcoral;
+  color: #add8e6;
 }
+#contqui{
+  background-color: #7BD5EB ;
+}
+#txtsecqui{
+  background-color: #7BD5EB;
+}
+
+/*modificação das cores de geografia*/
 #itemgeo{
   text-decoration: none;
   color: #F59A7A;
 }
 #menugeo{
-  background-color:#F59A7A ;
+  background-color:#EBA038 ;
 }
 #navgeo{
-  background-color: #FFE094;
+  background-color: #FABA39;
+}
+#contgeo{
+  background-color: #FFD3B6;
+}
+#txtsecgeo{
+  background-color: #FFD3B6;
 }
 
 /* #portform{
@@ -410,9 +424,15 @@ background-color: #23232e;
   background-color: #FFE4B5;
   height: 1000px;
 }
-#itemhist{
-  color: #FFE4B5;
+#itemhist1 a{
+  position: relative;
+  font-size: 1.1em;
+  color:#FFE4B5;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
 }
+<<<<<<< HEAD
 /* modificação de cor APENAS DO SITE DE HISTORIA ☺ */
 
 /* mudança da pag de português, alteração da paleta de cor e aumento do form */
@@ -430,18 +450,26 @@ background-color: #23232e;
 }
 
 #nav_port a::after{
+=======
+#itemhist1 a::after{
+>>>>>>> 014ebc8f66df39b83ad134a61a406d66f88ed748
   content: '';
   position: absolute;
   left:0;
   bottom: -6px;
   width: 100%;
   height: 3px;
+<<<<<<< HEAD
   background: #8E44AD ;
+=======
+  background: #FFE4B5;
+>>>>>>> 014ebc8f66df39b83ad134a61a406d66f88ed748
   border-radius: 5px;
   transform-origin:rigth ;
   transform: scaleX(0);
   transition: transform .5s;
 }
+<<<<<<< HEAD
 #nav_port a:hover::after{
 transform-origin:left ;
 transform: scaleX(1);}
@@ -456,4 +484,82 @@ transform: scaleX(1);}
 
 #backgroundport{
   background-color: #5C201C;
+=======
+#itemhist1 a:hover::after{
+transform-origin:left ;
+transform: scaleX(1);}
+/* modificação de cor APENAS DO SITE DE HISTORIA ☺ */
+
+/* coloração de MATEMÁTICA */
+#menumat{
+  background-color: #0d2540;
+}
+
+#navmat{
+  background-color: #12345B;
+
+}
+
+#contmat{
+  background-color: #a2b0c1;
+  height: 1000px;
+}
+
+#itemmat{
+  background-color: #a2b0c1;
+}
+
+#asidemat{
+  background-color: #a2b0c1;
+  height: 1000px;
+}
+
+/* coloração filosofia*/
+
+#nav-filo a{
+  position: relative;
+  font-size: 1.1em;
+  color:rgb(168, 110, 77);
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+#nav-filo a::after{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: rgb(201, 151, 122);
+  border-radius: 5px;
+  transform-origin:rigth ;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+#nav-filo a:hover::after{
+transform-origin:left ;
+transform: scaleX(1);}
+
+#menufilo{
+  background-color:  #5b2702
+}
+
+#navfilo{
+  background-color: #492307;
+}
+
+#contfilo{
+  background-color: #ffffc7;
+  height: 1000px;
+}
+
+#itemfilo{
+  background-color: #a2b0c1;
+}
+
+#asidefilo{
+  background-color: #FFFFF0;
+  height: 1000px;
+>>>>>>> 014ebc8f66df39b83ad134a61a406d66f88ed748
 }
