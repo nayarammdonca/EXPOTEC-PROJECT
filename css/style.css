@@ -716,7 +716,7 @@ ul li.item-menu a .icone>i {
   background-color: #5C201C;
 }
 
-/* coloração filosofia*/
+/* coloração e configuração filosofia*/
 
 #nav-filo a {
   position: relative;
@@ -761,4 +761,9 @@ ul li.item-menu a .icone>i {
 
 #itemfilo {
   background-color: #a2b0c1;
+}
+
+/* coloração e configuração de matemática */
+#contmat{
+  height: 500px;
 }
