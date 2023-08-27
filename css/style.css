@@ -432,7 +432,6 @@ background-color: #23232e;
   font-weight: 500;
   margin-left: 40px;
 }
-<<<<<<< HEAD
 /* modificação de cor APENAS DO SITE DE HISTORIA ☺ */
 
 /* mudança da pag de português, alteração da paleta de cor e aumento do form */
@@ -450,9 +449,6 @@ background-color: #23232e;
 }
 
 #nav_port a::after{
-=======
-#itemhist1 a::after{
->>>>>>> 014ebc8f66df39b83ad134a61a406d66f88ed748
   content: '';
   position: absolute;
   left:0;
