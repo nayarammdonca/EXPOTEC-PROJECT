@@ -397,15 +397,20 @@ background-color: #23232e;
 } */
 /* modificação de cor APENAS DO SITE DE HISTORIA ☺ */
 #menuhist {
-  background-color:#E05809;
+  background-color: #A0522D;
 }
 #navhist{
-  background-color: #FA5E0C;
+  background-color: #8B4513;
 }
 #conthist{
-  background-color: #F06C30;
+  background-color: #FFE4B5;
+  height: 1000px;
 }
 #textosechist {
-  background-color: #FA6B0F;
+  background-color: #FFE4B5;
+  height: 1000px;
+}
+#itemhist{
+  color: #FFE4B5;
 }
 /* modificação de cor APENAS DO SITE DE HISTORIA ☺ */
