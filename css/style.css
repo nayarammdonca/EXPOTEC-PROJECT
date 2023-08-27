@@ -431,11 +431,10 @@ background-color: #23232e;
   text-decoration: none;
   font-weight: 500;
   margin-left: 40px;
-}
-<<<<<<< HEAD
-/* modificação de cor APENAS DO SITE DE HISTORIA ☺ */
 
-/* mudança da pag de português, alteração da paleta de cor e aumento do form */
+}
+
+
 #portform{
   height: 520px;
 }
@@ -449,27 +448,24 @@ background-color: #23232e;
   margin-left: 40px;
 }
 
-#nav_port a::after{
-=======
+
+
 #itemhist1 a::after{
->>>>>>> 014ebc8f66df39b83ad134a61a406d66f88ed748
+
   content: '';
   position: absolute;
   left:0;
   bottom: -6px;
   width: 100%;
   height: 3px;
-<<<<<<< HEAD
   background: #8E44AD ;
-=======
   background: #FFE4B5;
->>>>>>> 014ebc8f66df39b83ad134a61a406d66f88ed748
   border-radius: 5px;
   transform-origin:rigth ;
   transform: scaleX(0);
   transition: transform .5s;
 }
-<<<<<<< HEAD
+
 #nav_port a:hover::after{
 transform-origin:left ;
 transform: scaleX(1);}
@@ -482,9 +478,7 @@ transform: scaleX(1);}
   background-color: #5C0600;
 }
 
-#backgroundport{
-  background-color: #5C201C;
-=======
+
 #itemhist1 a:hover::after{
 transform-origin:left ;
 transform: scaleX(1);}
@@ -561,5 +555,4 @@ transform: scaleX(1);}
 #asidefilo{
   background-color: #FFFFF0;
   height: 1000px;
->>>>>>> 014ebc8f66df39b83ad134a61a406d66f88ed748
 }
