@@ -866,3 +866,14 @@ button {
 .desenvolvedores h1{
   color: #ffffff;
 }
+
+.desenvolvedores p{
+  color: #b4b4b4;
+  margin-right: 500px;
+}
+
+.desenvolvedores img{
+  width: 200px;
+  height: 200px;
+  float: right;
+}
