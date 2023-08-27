@@ -352,26 +352,41 @@ transform: scaleX(1);}
 ::-webkit-scrollbar-thumb{
 background-color: #23232e;
 }
+/*modificação das cores de química*/
 #quimcor{
-  background-color: mediumorchid;
+  background-color: #336699;
 }
 #navquim{
-  background-color: lightblue;
+  background-color: #4980D1;
 
 }
 #itemqui{
   text-decoration: none;
-  color: lightcoral;
+  color: #add8e6;
 }
+#contqui{
+  background-color: #7BD5EB ;
+}
+#txtsecqui{
+  background-color: #7BD5EB;
+}
+
+/*modificação das cores de geografia*/
 #itemgeo{
   text-decoration: none;
   color: #F59A7A;
 }
 #menugeo{
-  background-color:#F59A7A ;
+  background-color:#EBA038 ;
 }
 #navgeo{
-  background-color: #FFE094;
+  background-color: #FABA39;
+}
+#contgeo{
+  background-color: #FFD3B6;
+}
+#txtsecgeo{
+  background-color: #FFD3B6;
 }
 
 /* #portform{
