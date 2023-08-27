@@ -247,7 +247,6 @@ nav.menu-lateral{
   height: 100%;
   background-color:#3f3f3e;
   padding: 40px 0px 40px 1%;
-  box-shadow: 3px 0 0 #000000;
   position: fixed;
   top: 0;
   left: 0;
@@ -410,7 +409,28 @@ background-color: #23232e;
   background-color: #FFE4B5;
   height: 1000px;
 }
-#itemhist{
-  color: #FFE4B5;
+#itemhist1 a{
+  position: relative;
+  font-size: 1.1em;
+  color:#FFE4B5;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
 }
+#itemhist1 a::after{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #FFE4B5;
+  border-radius: 5px;
+  transform-origin:rigth ;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+#itemhist1 a:hover::after{
+transform-origin:left ;
+transform: scaleX(1);}
 /* modificação de cor APENAS DO SITE DE HISTORIA ☺ */
