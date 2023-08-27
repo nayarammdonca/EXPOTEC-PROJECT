@@ -247,7 +247,6 @@ nav.menu-lateral{
   height: 100%;
   background-color:#3f3f3e;
   padding: 40px 0px 40px 1%;
-  box-shadow: 3px 0 0 #000000;
   position: fixed;
   top: 0;
   left: 0;
@@ -425,7 +424,101 @@ background-color: #23232e;
   background-color: #FFE4B5;
   height: 1000px;
 }
-#itemhist{
-  color: #FFE4B5;
+#itemhist1 a{
+  position: relative;
+  font-size: 1.1em;
+  color:#FFE4B5;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
 }
+#itemhist1 a::after{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #FFE4B5;
+  border-radius: 5px;
+  transform-origin:rigth ;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+#itemhist1 a:hover::after{
+transform-origin:left ;
+transform: scaleX(1);}
 /* modificação de cor APENAS DO SITE DE HISTORIA ☺ */
+
+/* coloração de MATEMÁTICA */
+#menumat{
+  background-color: #0d2540;
+}
+
+#navmat{
+  background-color: #12345B;
+
+}
+
+#contmat{
+  background-color: #a2b0c1;
+  height: 1000px;
+}
+
+#itemmat{
+  background-color: #a2b0c1;
+}
+
+#asidemat{
+  background-color: #a2b0c1;
+  height: 1000px;
+}
+
+/* coloração filosofia*/
+
+#nav-filo a{
+  position: relative;
+  font-size: 1.1em;
+  color:rgb(168, 110, 77);
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+#nav-filo a::after{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: rgb(201, 151, 122);
+  border-radius: 5px;
+  transform-origin:rigth ;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+#nav-filo a:hover::after{
+transform-origin:left ;
+transform: scaleX(1);}
+
+#menufilo{
+  background-color:  #5b2702
+}
+
+#navfilo{
+  background-color: #492307;
+}
+
+#contfilo{
+  background-color: #ffffc7;
+  height: 1000px;
+}
+
+#itemfilo{
+  background-color: #a2b0c1;
+}
+
+#asidefilo{
+  background-color: #FFFFF0;
+  height: 1000px;
+}
