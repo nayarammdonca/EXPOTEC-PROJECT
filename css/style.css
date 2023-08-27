@@ -756,8 +756,9 @@ ul li.item-menu a .icone>i {
 
 #contfilo {
   background-color: #ffffc7;
-  height: 1000px;
+  height: 600px;
 }
+
 
 #itemfilo {
   background-color: #a2b0c1;
@@ -855,3 +856,7 @@ button {
  button:hover .button-text {
   color: #fff;
  }
+
+#menudevs{
+  
+}
